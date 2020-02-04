@@ -4,18 +4,29 @@
     font: bold 2em/8 sans-serif;
     text-align: center;
     color: #FFF;
-    float: left;
+
 }
 
 #bloco01{
+    
     background-color: blue;
     float: none;
+    margin-left:0;
+    margin-top: 0;
+    overflow: auto;
 }
 
 #bloco02{
     background-color: brown;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow: hidden;
 }
 
 #bloco03{
+    top: 25px;
     background-color: chartreuse;
+    margin-left: 60px;
+    margin-top: 60px;
+    overflow: scroll;
 }
