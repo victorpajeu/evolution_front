@@ -1,0 +1,21 @@
+#bloco01,#bloco02,#bloco03{
+    width: 150px;
+    height: 150px;
+    font: bold 2em/8 sans-serif;
+    text-align: center;
+    color: #FFF;
+    float: left;
+}
+
+#bloco01{
+    background-color: blue;
+    float: none;
+}
+
+#bloco02{
+    background-color: brown;
+}
+
+#bloco03{
+    background-color: chartreuse;
+}
